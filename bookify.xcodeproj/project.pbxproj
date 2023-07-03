@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C037E0BE2A5326B600D188AC /* CustomTabItemStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C037E0BD2A5326B600D188AC /* CustomTabItemStyle.swift */; };
+		C037E0C02A5326BB00D188AC /* CustomTabBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C037E0BF2A5326BB00D188AC /* CustomTabBarStyle.swift */; };
+		C0EB43AB2A4FA08E000F9A38 /* bookifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB43AA2A4FA08E000F9A38 /* bookifyApp.swift */; };
+		C0EB43AD2A4FA08E000F9A38 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB43AC2A4FA08E000F9A38 /* LoginView.swift */; };
+		C0EB43AF2A4FA090000F9A38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0EB43AE2A4FA090000F9A38 /* Assets.xcassets */; };
+		C0EB43B32A4FA090000F9A38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0EB43B22A4FA090000F9A38 /* Preview Assets.xcassets */; };
+		C0EB43BD2A4FA091000F9A38 /* bookifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB43BC2A4FA091000F9A38 /* bookifyTests.swift */; };
+		C0EB43C72A4FA091000F9A38 /* bookifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB43C62A4FA091000F9A38 /* bookifyUITests.swift */; };
+		C0EB43C92A4FA091000F9A38 /* bookifyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB43C82A4FA091000F9A38 /* bookifyUITestsLaunchTests.swift */; };
+		C0EB43D62A4FA265000F9A38 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0EB43D52A4FA265000F9A38 /* GoogleService-Info.plist */; };
+		C0EB43D92A4FA2CD000F9A38 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C0EB43D82A4FA2CD000F9A38 /* FirebaseAnalytics */; };
+		C0EB43DB2A4FA2CD000F9A38 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C0EB43DA2A4FA2CD000F9A38 /* FirebaseAuth */; };
+		C0EB43DD2A4FAC3A000F9A38 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB43DC2A4FAC3A000F9A38 /* HomeView.swift */; };
+		C0EB43E02A4FAEBE000F9A38 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = C0EB43DF2A4FAEBE000F9A38 /* SwiftUICharts */; };
+		C0EB43E22A4FC1E3000F9A38 /* MetricasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB43E12A4FC1E3000F9A38 /* MetricasView.swift */; };
+		C0EB43E52A4FC3C4000F9A38 /* TabBar in Frameworks */ = {isa = PBXBuildFile; productRef = C0EB43E42A4FC3C4000F9A38 /* TabBar */; };
+		C0EB43E82A4FC3E6000F9A38 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB43E72A4FC3E6000F9A38 /* TabBarItem.swift */; };
+		C0EB43EA2A4FC6A9000F9A38 /* CustomTabBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB43E92A4FC6A9000F9A38 /* CustomTabBarStyle.swift */; };
+		C0EB43EC2A4FC6F3000F9A38 /* CustomTabItemStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EB43EB2A4FC6F3000F9A38 /* CustomTabItemStyle.swift */; };
+		C0EB43EF2A4FCE82000F9A38 /* SegmentedPicker in Frameworks */ = {isa = PBXBuildFile; productRef = C0EB43EE2A4FCE82000F9A38 /* SegmentedPicker */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0EB43B92A4FA091000F9A38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0EB439F2A4FA08E000F9A38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0EB43A62A4FA08E000F9A38;
+			remoteInfo = bookify;
+		};
+		C0EB43C32A4FA091000F9A38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0EB439F2A4FA08E000F9A38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0EB43A62A4FA08E000F9A38;
+			remoteInfo = bookify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C037E0BD2A5326B600D188AC /* CustomTabItemStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabItemStyle.swift; sourceTree = "<group>"; };
+		C037E0BF2A5326BB00D188AC /* CustomTabBarStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarStyle.swift; sourceTree = "<group>"; };
+		C0EB43A72A4FA08E000F9A38 /* bookify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bookify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0EB43AA2A4FA08E000F9A38 /* bookifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookifyApp.swift; sourceTree = "<group>"; };
+		C0EB43AC2A4FA08E000F9A38 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C0EB43AE2A4FA090000F9A38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0EB43B02A4FA090000F9A38 /* bookify.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bookify.entitlements; sourceTree = "<group>"; };
+		C0EB43B22A4FA090000F9A38 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C0EB43B82A4FA091000F9A38 /* bookifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bookifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0EB43BC2A4FA091000F9A38 /* bookifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookifyTests.swift; sourceTree = "<group>"; };
+		C0EB43C22A4FA091000F9A38 /* bookifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bookifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0EB43C62A4FA091000F9A38 /* bookifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookifyUITests.swift; sourceTree = "<group>"; };
+		C0EB43C82A4FA091000F9A38 /* bookifyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookifyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C0EB43D52A4FA265000F9A38 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C0EB43DC2A4FAC3A000F9A38 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C0EB43E12A4FC1E3000F9A38 /* MetricasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricasView.swift; sourceTree = "<group>"; };
+		C0EB43E72A4FC3E6000F9A38 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		C0EB43E92A4FC6A9000F9A38 /* CustomTabBarStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTabBarStyle.swift; path = ../../../../Desktop/TabBar/Example/Example/Styles/TabBar/CustomTabBarStyle.swift; sourceTree = "<group>"; };
+		C0EB43EB2A4FC6F3000F9A38 /* CustomTabItemStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTabItemStyle.swift; path = ../../../../Desktop/TabBar/Example/Example/Styles/TabItem/CustomTabItemStyle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0EB43A42A4FA08E000F9A38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0EB43E02A4FAEBE000F9A38 /* SwiftUICharts in Frameworks */,
+				C0EB43D92A4FA2CD000F9A38 /* FirebaseAnalytics in Frameworks */,
+				C0EB43EF2A4FCE82000F9A38 /* SegmentedPicker in Frameworks */,
+				C0EB43E52A4FC3C4000F9A38 /* TabBar in Frameworks */,
+				C0EB43DB2A4FA2CD000F9A38 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0EB43B52A4FA091000F9A38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0EB43BF2A4FA091000F9A38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0EB439E2A4FA08E000F9A38 = {
+			isa = PBXGroup;
+			children = (
+				C0EB43A92A4FA08E000F9A38 /* bookify */,
+				C0EB43BB2A4FA091000F9A38 /* bookifyTests */,
+				C0EB43C52A4FA091000F9A38 /* bookifyUITests */,
+				C0EB43A82A4FA08E000F9A38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0EB43A82A4FA08E000F9A38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0EB43A72A4FA08E000F9A38 /* bookify.app */,
+				C0EB43B82A4FA091000F9A38 /* bookifyTests.xctest */,
+				C0EB43C22A4FA091000F9A38 /* bookifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0EB43A92A4FA08E000F9A38 /* bookify */ = {
+			isa = PBXGroup;
+			children = (
+				C037E0BF2A5326BB00D188AC /* CustomTabBarStyle.swift */,
+				C037E0BD2A5326B600D188AC /* CustomTabItemStyle.swift */,
+				C0EB43F32A509D4C000F9A38 /* Screen */,
+				C0EB43E62A4FC3D1000F9A38 /* Model */,
+				C0EB43D52A4FA265000F9A38 /* GoogleService-Info.plist */,
+				C0EB43AA2A4FA08E000F9A38 /* bookifyApp.swift */,
+				C0EB43AE2A4FA090000F9A38 /* Assets.xcassets */,
+				C0EB43B02A4FA090000F9A38 /* bookify.entitlements */,
+				C0EB43B12A4FA090000F9A38 /* Preview Content */,
+			);
+			path = bookify;
+			sourceTree = "<group>";
+		};
+		C0EB43B12A4FA090000F9A38 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C0EB43B22A4FA090000F9A38 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C0EB43BB2A4FA091000F9A38 /* bookifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0EB43BC2A4FA091000F9A38 /* bookifyTests.swift */,
+			);
+			path = bookifyTests;
+			sourceTree = "<group>";
+		};
+		C0EB43C52A4FA091000F9A38 /* bookifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0EB43C62A4FA091000F9A38 /* bookifyUITests.swift */,
+				C0EB43C82A4FA091000F9A38 /* bookifyUITestsLaunchTests.swift */,
+			);
+			path = bookifyUITests;
+			sourceTree = "<group>";
+		};
+		C0EB43E62A4FC3D1000F9A38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C0EB43EB2A4FC6F3000F9A38 /* CustomTabItemStyle.swift */,
+				C0EB43E92A4FC6A9000F9A38 /* CustomTabBarStyle.swift */,
+				C0EB43E72A4FC3E6000F9A38 /* TabBarItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C0EB43F02A509D25000F9A38 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C0EB43E12A4FC1E3000F9A38 /* MetricasView.swift */,
+				C0EB43DC2A4FAC3A000F9A38 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C0EB43F12A509D36000F9A38 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C0EB43AC2A4FA08E000F9A38 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C0EB43F32A509D4C000F9A38 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				C0EB43F02A509D25000F9A38 /* Home */,
+				C0EB43F12A509D36000F9A38 /* Login */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0EB43A62A4FA08E000F9A38 /* bookify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0EB43CC2A4FA091000F9A38 /* Build configuration list for PBXNativeTarget "bookify" */;
+			buildPhases = (
+				C0EB43A32A4FA08E000F9A38 /* Sources */,
+				C0EB43A42A4FA08E000F9A38 /* Frameworks */,
+				C0EB43A52A4FA08E000F9A38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bookify;
+			packageProductDependencies = (
+				C0EB43D82A4FA2CD000F9A38 /* FirebaseAnalytics */,
+				C0EB43DA2A4FA2CD000F9A38 /* FirebaseAuth */,
+				C0EB43DF2A4FAEBE000F9A38 /* SwiftUICharts */,
+				C0EB43E42A4FC3C4000F9A38 /* TabBar */,
+				C0EB43EE2A4FCE82000F9A38 /* SegmentedPicker */,
+			);
+			productName = bookify;
+			productReference = C0EB43A72A4FA08E000F9A38 /* bookify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0EB43B72A4FA091000F9A38 /* bookifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0EB43CF2A4FA091000F9A38 /* Build configuration list for PBXNativeTarget "bookifyTests" */;
+			buildPhases = (
+				C0EB43B42A4FA091000F9A38 /* Sources */,
+				C0EB43B52A4FA091000F9A38 /* Frameworks */,
+				C0EB43B62A4FA091000F9A38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0EB43BA2A4FA091000F9A38 /* PBXTargetDependency */,
+			);
+			name = bookifyTests;
+			productName = bookifyTests;
+			productReference = C0EB43B82A4FA091000F9A38 /* bookifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0EB43C12A4FA091000F9A38 /* bookifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0EB43D22A4FA091000F9A38 /* Build configuration list for PBXNativeTarget "bookifyUITests" */;
+			buildPhases = (
+				C0EB43BE2A4FA091000F9A38 /* Sources */,
+				C0EB43BF2A4FA091000F9A38 /* Frameworks */,
+				C0EB43C02A4FA091000F9A38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0EB43C42A4FA091000F9A38 /* PBXTargetDependency */,
+			);
+			name = bookifyUITests;
+			productName = bookifyUITests;
+			productReference = C0EB43C22A4FA091000F9A38 /* bookifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0EB439F2A4FA08E000F9A38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C0EB43A62A4FA08E000F9A38 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					C0EB43B72A4FA091000F9A38 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C0EB43A62A4FA08E000F9A38;
+					};
+					C0EB43C12A4FA091000F9A38 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C0EB43A62A4FA08E000F9A38;
+					};
+				};
+			};
+			buildConfigurationList = C0EB43A22A4FA08E000F9A38 /* Build configuration list for PBXProject "bookify" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0EB439E2A4FA08E000F9A38;
+			packageReferences = (
+				C0EB43D72A4FA2CD000F9A38 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				C0EB43DE2A4FAEBE000F9A38 /* XCRemoteSwiftPackageReference "ChartView" */,
+				C0EB43E32A4FC3C4000F9A38 /* XCRemoteSwiftPackageReference "TabBar" */,
+				C0EB43ED2A4FCE82000F9A38 /* XCRemoteSwiftPackageReference "SwiftySegmentedPicker" */,
+			);
+			productRefGroup = C0EB43A82A4FA08E000F9A38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0EB43A62A4FA08E000F9A38 /* bookify */,
+				C0EB43B72A4FA091000F9A38 /* bookifyTests */,
+				C0EB43C12A4FA091000F9A38 /* bookifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0EB43A52A4FA08E000F9A38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0EB43B32A4FA090000F9A38 /* Preview Assets.xcassets in Resources */,
+				C0EB43AF2A4FA090000F9A38 /* Assets.xcassets in Resources */,
+				C0EB43D62A4FA265000F9A38 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0EB43B62A4FA091000F9A38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0EB43C02A4FA091000F9A38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0EB43A32A4FA08E000F9A38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0EB43E22A4FC1E3000F9A38 /* MetricasView.swift in Sources */,
+				C0EB43DD2A4FAC3A000F9A38 /* HomeView.swift in Sources */,
+				C0EB43E82A4FC3E6000F9A38 /* TabBarItem.swift in Sources */,
+				C0EB43EC2A4FC6F3000F9A38 /* CustomTabItemStyle.swift in Sources */,
+				C037E0C02A5326BB00D188AC /* CustomTabBarStyle.swift in Sources */,
+				C0EB43AD2A4FA08E000F9A38 /* LoginView.swift in Sources */,
+				C037E0BE2A5326B600D188AC /* CustomTabItemStyle.swift in Sources */,
+				C0EB43EA2A4FC6A9000F9A38 /* CustomTabBarStyle.swift in Sources */,
+				C0EB43AB2A4FA08E000F9A38 /* bookifyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0EB43B42A4FA091000F9A38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0EB43BD2A4FA091000F9A38 /* bookifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0EB43BE2A4FA091000F9A38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0EB43C92A4FA091000F9A38 /* bookifyUITestsLaunchTests.swift in Sources */,
+				C0EB43C72A4FA091000F9A38 /* bookifyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0EB43BA2A4FA091000F9A38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0EB43A62A4FA08E000F9A38 /* bookify */;
+			targetProxy = C0EB43B92A4FA091000F9A38 /* PBXContainerItemProxy */;
+		};
+		C0EB43C42A4FA091000F9A38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0EB43A62A4FA08E000F9A38 /* bookify */;
+			targetProxy = C0EB43C32A4FA091000F9A38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C0EB43CA2A4FA091000F9A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0EB43CB2A4FA091000F9A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C0EB43CD2A4FA091000F9A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = bookify/bookify.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bookify/Preview Content\"";
+				DEVELOPMENT_TEAM = 8ABFL9L6X6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pixelapps.bookify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C0EB43CE2A4FA091000F9A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = bookify/bookify.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bookify/Preview Content\"";
+				DEVELOPMENT_TEAM = 8ABFL9L6X6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pixelapps.bookify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C0EB43D02A4FA091000F9A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ABFL9L6X6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pixelapps.bookifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bookify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bookify";
+			};
+			name = Debug;
+		};
+		C0EB43D12A4FA091000F9A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ABFL9L6X6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pixelapps.bookifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bookify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bookify";
+			};
+			name = Release;
+		};
+		C0EB43D32A4FA091000F9A38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ABFL9L6X6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pixelapps.bookifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bookify;
+			};
+			name = Debug;
+		};
+		C0EB43D42A4FA091000F9A38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ABFL9L6X6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pixelapps.bookifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bookify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0EB43A22A4FA08E000F9A38 /* Build configuration list for PBXProject "bookify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0EB43CA2A4FA091000F9A38 /* Debug */,
+				C0EB43CB2A4FA091000F9A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0EB43CC2A4FA091000F9A38 /* Build configuration list for PBXNativeTarget "bookify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0EB43CD2A4FA091000F9A38 /* Debug */,
+				C0EB43CE2A4FA091000F9A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0EB43CF2A4FA091000F9A38 /* Build configuration list for PBXNativeTarget "bookifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0EB43D02A4FA091000F9A38 /* Debug */,
+				C0EB43D12A4FA091000F9A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0EB43D22A4FA091000F9A38 /* Build configuration list for PBXNativeTarget "bookifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0EB43D32A4FA091000F9A38 /* Debug */,
+				C0EB43D42A4FA091000F9A38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C0EB43D72A4FA2CD000F9A38 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		C0EB43DE2A4FAEBE000F9A38 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		C0EB43E32A4FC3C4000F9A38 /* XCRemoteSwiftPackageReference "TabBar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onl1ner/TabBar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		C0EB43ED2A4FCE82000F9A38 /* XCRemoteSwiftPackageReference "SwiftySegmentedPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/KazaiMazai/SwiftySegmentedPicker";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C0EB43D82A4FA2CD000F9A38 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0EB43D72A4FA2CD000F9A38 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		C0EB43DA2A4FA2CD000F9A38 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0EB43D72A4FA2CD000F9A38 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C0EB43DF2A4FAEBE000F9A38 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0EB43DE2A4FAEBE000F9A38 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+		C0EB43E42A4FC3C4000F9A38 /* TabBar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0EB43E32A4FC3C4000F9A38 /* XCRemoteSwiftPackageReference "TabBar" */;
+			productName = TabBar;
+		};
+		C0EB43EE2A4FCE82000F9A38 /* SegmentedPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0EB43ED2A4FCE82000F9A38 /* XCRemoteSwiftPackageReference "SwiftySegmentedPicker" */;
+			productName = SegmentedPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C0EB439F2A4FA08E000F9A38 /* Project object */;
+}
